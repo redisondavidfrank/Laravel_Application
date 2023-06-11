@@ -1,0 +1,31 @@
+/* student info page css */
+body {
+    background: linear-gradient(to right, #014872, #A0EACF);
+}
+
+.container {
+    background: linear-gradient(to bottom, #2AF598, white);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+table {
+    width: 100%;
+    border: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+button{
+    display: inline-block;
+    position: left;
+    top: 50%;
+    transform: translateY(-50%);
+}

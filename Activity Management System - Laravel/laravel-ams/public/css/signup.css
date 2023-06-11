@@ -1,0 +1,67 @@
+/* Sign Up form css */
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("psu.png");
+    background-color: #3b3a47;
+	background-size:contain;
+}
+
+.signup-container {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: auto;
+	margin-top: 100px;
+	max-width: 300px;
+	text-align: center;
+}
+p {
+    text-align: center;
+}
+h1 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #1345d0;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #365fd1;
+}
+
+form .new p {
+    background: black;
+    color: white;
+    padding: 17px 20px;
+    border-radius: 7px;
+    width: fit-content;
+    margin: 14px auto;
+  }
