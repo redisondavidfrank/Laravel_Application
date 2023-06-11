@@ -1,0 +1,36 @@
+/* student info page css */
+body {
+    font-family: Monaco, Monospace;
+	background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148390812.jpg?w=2000");
+	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	background-position: center;
+	background-color: #3b3a47;
+}
+
+.container {
+    background: linear-gradient(to bottom, #2AF598, white);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+table {
+    width: 100%;
+    border: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+button{
+    display: inline-block;
+    position: left;
+    top: 50%;
+    transform: translateY(-50%);
+}

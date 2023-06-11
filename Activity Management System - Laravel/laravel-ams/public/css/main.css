@@ -1,0 +1,31 @@
+/* Homepage css */
+body {
+    font-family: Monaco, Monospace;
+	background-image: url("https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-82821.jpg?w=2000");
+	background-repeat: no-repeat;
+ 	background-size: 133%;
+ 	background-position: center;
+	background-color: #3b3a47;
+}
+h1  {
+    background: linear-gradient(to right, #009EFD, #F68084);
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+.assignment_name {
+    position: right;
+}
+.assignment-table {
+    background: linear-gradient(to bottom right, #25D366, #F77737);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.assignment-table th,
+.assignment-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}

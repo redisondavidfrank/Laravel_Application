@@ -1,0 +1,61 @@
+/* Add assignment form css */
+body {
+    font-family: Monaco, Monospace;
+	background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148390812.jpg?w=2000");
+	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	background-position: center;
+	background-color: #3b3a47;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    background: linear-gradient(to right, #2AF598, #009EFD);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select {
+    height: 35px;
+}
+
+.name-field {
+    display: flex;
+}
+
+.name-field input[type="text"] {
+    flex: 1;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
